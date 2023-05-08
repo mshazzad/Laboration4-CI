@@ -59,4 +59,10 @@ public class CalculatorTests {
         Assertions.assertEquals(result,62.83);
     }
 
+    // Failing test
+    @Test
+    void failingTest() {
+        Assertions.assertEquals(1,2);
+    }
+
 }
